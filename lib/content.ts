@@ -1,9 +1,27 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+/**
+ * Centralized profile/contact info. Update these values to change LinkedIn,
+ * GitHub, email, or the resume file across the entire site in one place.
+ * To replace the resume later: drop the new file in `public/resume/` and
+ * update `resumeFileName` below (no other code needs to change).
+ */
+export const profile = {
+  name: 'Sai Santosh',
+  email: 'santoshsai1212@yahoo.com',
+  linkedin: 'https://www.linkedin.com/in/s-santosh-623510103/',
+  github: 'https://github.com/saisantosh2427',
+  resumeFileName: 'Sai-Santosh-AI-ML-Engineer-Resume.docx',
+  location: 'Sunnyvale, CA',
+};
+
 export const links = {
-  linkedin: '#linkedin-url',
-  github: '#github-url',
-  resume: '#resume-file',
-  email: 'mailto:[ADD EMAIL ADDRESS]',
-  location: '[ADD LOCATION]',
+  linkedin: profile.linkedin,
+  github: profile.github,
+  resume: `${basePath}/resume/${profile.resumeFileName}`,
+  email: `mailto:${profile.email}`,
+  emailAddress: profile.email,
+  location: profile.location,
 };
 
 export const roles = [
