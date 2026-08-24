@@ -25,14 +25,18 @@ export const links = {
 };
 
 export const roles = [
-  'AI/ML Engineer',
+  'Artificial Intelligence Engineer',
   'Machine Learning Engineer',
-  'Generative AI Engineer',
-  'Applied AI Engineer',
-  'AI Software Engineer',
-  'LLM Engineer',
-  'MLOps Engineer',
+  'Generative AI Specialist',
 ];
+
+export const recruitingInfo = {
+  experience: '3+ Years AI/ML Experience',
+  specializations: 'Artificial Intelligence / Machine Learning / Generative AI',
+  education: 'DBA — Applied Artificial Intelligence, Currently Pursuing',
+  workAuthorization: 'Work Authorization: CPT',
+  availability: 'Open to Full-Time Opportunities',
+};
 
 export const experiences = [
   {
