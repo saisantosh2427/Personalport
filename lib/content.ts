@@ -11,7 +11,7 @@ export const profile = {
   email: 'santoshsai1212@yahoo.com',
   linkedin: 'https://www.linkedin.com/in/s-santosh-623510103/',
   github: 'https://github.com/saisantosh2427',
-  resumeFileName: 'Sai-Santosh-AI-ML-Engineer-Resume.docx',
+  resumeFileName: 'Myresume.DOCX',
   location: 'Sunnyvale, CA',
 };
 
