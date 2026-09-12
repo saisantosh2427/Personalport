@@ -31,7 +31,7 @@ export const roles = [
 ];
 
 export const recruitingInfo = {
-  experience: '3+ Years AI/ML Experience',
+  experience: '5 Years AI/ML Experience',
   specializations: 'Artificial Intelligence / Machine Learning / Generative AI',
   education: 'DBA — Applied Artificial Intelligence, Currently Pursuing',
   workAuthorization: 'Work Authorization: CPT',
@@ -52,7 +52,7 @@ export const experiences = [
     technologies: ['Python', 'TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy', 'AWS SageMaker', 'MLflow', 'Docker', 'PostgreSQL', 'SQL', 'Power BI', 'REST APIs'],
   },
   {
-    company: 'Cognizant', role: 'Junior Machine Learning Engineer', date: 'July 2021 – August 2022',
+    company: 'Cognizant', role: 'Junior Machine Learning Engineer', date: 'July 2020 – August 2022',
     focus: 'Machine learning development, predictive analytics, and foundational MLOps.',
     bullets: ['Supported development of machine learning and predictive analytics solutions across data preparation, model development, evaluation, and deployment activities.', 'Worked with structured datasets using Python, Pandas, NumPy, and SQL.', 'Performed data cleaning, transformation, aggregation, missing-value handling, and exploratory analysis.', 'Developed and evaluated regression and classification models using Scikit-learn.', 'Supported feature engineering to improve model quality and predictive capability.', 'Evaluated models using appropriate metrics such as RMSE, MAE, precision, recall, and F1-score depending on the use case.', 'Supported forecasting and segmentation models.', 'Created analytical visualizations using Power BI and Matplotlib.', 'Assisted with containerizing machine learning applications using Docker.', 'Supported REST API integration for exposing machine-learning predictions to applications.', 'Used Git, GitHub, and JIRA for source control and development collaboration.'],
     technologies: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'SQL', 'PostgreSQL', 'Docker', 'Power BI', 'Matplotlib', 'Git', 'GitHub', 'REST APIs'],
